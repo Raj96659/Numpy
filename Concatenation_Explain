@@ -1,0 +1,7 @@
+Axis	                    Meaning	                               What happens
+0                    	Row-wise joining	                    One array below another
+1	                    Column-wise joining	                  One array beside another
+
+
+| axis=0 | 👉 Up and down (rows) | | axis=1 | 👉 Left and right (columns) |
+
