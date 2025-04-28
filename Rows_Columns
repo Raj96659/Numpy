@@ -1,0 +1,32 @@
+What is a Row in Numpy?
+>> A row is a horizontal line of elements.
+>> Left to Right = Row.
+
+[[1, 2, 3],
+[4, 5, 6]]
+
+>> Row 0 = [1, 2, 3]
+>> Row 1 = [4, 5, 6]
+
+
+What is a Column in Numpy?
+>> A column is a vertical line of elements.
+>> Top to Bottom = Column.
+
+>> Column 0 = [1, 4]
+>> Column 1 = [2, 5]
+>> Column 2 = [3, 6]
+
+What is axis in Numpy?
+>> In numpy, axis tells numpy in which direction it should do an operation (like sum, mean, etc.)
+
+Axis	        Direction	                          Meaning
+0	         Top to Bottom (↓)	        Operate column-wise (down the rows)
+1	         Left to Right (→)	        Operate row-wise (across the columns)
+
+
+Super simple tip to remember:
+
+Axis	           Works on	            How to remember?
+0	               Columns	        Think top to bottom (⬇️)
+1	               Rows	            Think left to right (➡️)
